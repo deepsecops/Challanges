@@ -1,2 +1,2 @@
 
-![crackme_001](crackmes/slice's simple ctf/img/img-1.png)
+![crackme_001](/img/img-1.png)
