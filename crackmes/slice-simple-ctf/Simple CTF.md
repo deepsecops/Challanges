@@ -204,7 +204,7 @@ local_88[13] = 0x16ab;
 local_88[14] = 0x1a94;
 ```
 
-So, by doing some math we could easily identify the local_47 array as we already know local_88 array from 0 to 14th index: 
+So, by doing simple math we could easily identify the local_47 array as we already know local_88 array from 0 to 14th index: 
 
 ```local_47[i] = ((local_88[i] + 10) - i) / 100```
 
