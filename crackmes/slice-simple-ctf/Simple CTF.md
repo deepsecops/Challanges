@@ -147,6 +147,7 @@ if (*(int *)(param_1 + local_10 * 4) != *(int *)(param_2 + local_10 * 4)) break;
 Lets understand this part and the working of loop: 
 
 On 1st Iteration:
+
 When the loop starts running initially in the "param_1" we have the reference of the local variable "local_c8", look into the decompiled version of "main" function, observe that its value is "0x1a22", and the value of "local_10" would be 0 initially, so the result of the statement below would be: 
 
 ```*(int *)(param_1 + local_10 * 4)```
@@ -154,6 +155,7 @@ When the loop starts running initially in the "param_1" we have the reference of
 ```*(int *)(param_1) --> (int*)0x1a22 --> 0x20c7 // here it is just typecasting it to the size of the pointer which is 8 bytes in 64 bits, so the final value contains the variable value of local_c8```
 
 On 2nd Iteration: 
+
 Now the reference "param_1+4" would point to next variable defined because by adding 4 to the reference value stored in "param_1", we are moving 4 bytes forward in reference now the effective reference would point to next variable which would be "local_c4" and "local_10" value would be 1 now.
 
 ```*(int*)(param_1+4) --> (int*)0x20c7 --> 0x20c7```
