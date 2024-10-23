@@ -135,7 +135,7 @@ From the above code we have some points to note:
 		- ```compare_hashes(&local_c8,local_88,0xf);```
 
 
-#### # Analysis of "compare_hashes" function:
+### # Analysis of "compare_hashes" function:
 Now, observe that in the function "compare_hashes", the reference to the local variable is passed, so lets check this function decompiled version:
 
 ![crackme_002](img/img-3.png)
@@ -162,7 +162,7 @@ Now the reference "param_1+4" would point to next variable defined because by ad
 
 So, in the function "compare_hashes" function its just compares the value stored in the variables from "local_c8" till variable "local_90" with each index from 0-14th index of the "local_88" array passed.
 
-#### # Analysis of the "ctfhash" function:
+### # Analysis of the "ctfhash" function:
 So, now we need to understand how the "local_88" array values were created in the function "ctfhash" using the user input which is stored in the "local_47" character array:
 
 ![crackme_003](img/img-2.png)
