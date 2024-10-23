@@ -1,2 +1,2 @@
-![[Pasted image 20241015231830.png]]
 
+![crackme_001](crackmes/slice's simple ctf/img/img-1.png "running binary")
