@@ -182,7 +182,7 @@ And now we could understand that how the "local_88" array elements are being cre
 *Note: If the user would pass the correct key or the string when this binary would run, the index value that would be stored in array local_88 would be same as the value stored in the local variables from local_c8 to local_90, something like this:*
 
 ```
-```local_88[0] = 0x1a22;
+local_88[0] = 0x1a22;
 local_88[1] = 0x20c7;
 local_88[2] = 0x1b50;	
 local_88[3] = 0x2515;
