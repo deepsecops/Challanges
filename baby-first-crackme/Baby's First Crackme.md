@@ -370,5 +370,6 @@ Observed that "Access granted!!!" is received, keys and numbers combination is c
 ```*(undefined *)(param_3 + (int)local_c) = 0;```  // it seems it is adding 0 value where null was present, so when in the "check_key", function strlen(local_58) would be done it might give any random value till it encounters null character, however this is not the case, as "local_58" is character array the 0 value would automatically would be type-casted to its respective ASCII value in character which is null character. 
 
 
-It was fun solving the challenge!!. I hope you enjoyed as well follow for more challenges.
+
+It was fun solving the challenge!!. I hope you enjoyed as well.  See you another day with another challenge..
 
