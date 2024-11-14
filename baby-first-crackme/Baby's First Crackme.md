@@ -331,6 +331,7 @@ In the second case key\[11\] is odd, but we know when we will will simplify:
 ```local_58[11] = key[11] + num * -2;```  it will become  ```local_58[11] = num[11] - 2*(val1);``` which is a condition **odd - even = odd** , so the local_58\[11\] comes odd in this case, but we already know that local_58\[11\] value should be even "124" to reach to "Access granted" condition, so this condition will also not give us which character should be in key\[11\]
 
 In case when key\[11\] is even in the "else if(((key\[11\] & 1) == 0))" condition of above loop in this the value of local_58\[11\] will get populated when program would run,  in this case we can get the key when we simplify: ```local_58[11] = key[11] + num * '\x02';```  to:
+
 ```key[11] = local_58[11] - num * '\0x2' ``` 
 
 ```key[11] = 124 - num * '\0x2'```
