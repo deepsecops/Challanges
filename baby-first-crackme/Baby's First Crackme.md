@@ -1,7 +1,7 @@
 
 ## Baby's First Crackme:
 
-Link to the challenge: https://crackmes.one/crackme/66736380e7b35c09bb266f92 
+Link to the challenge: https://crackmes.one/crackme/66736380e7b35c09bb266f92 (baby's first crackme by mystic_rust)
 
 This challenge was of easy difficulty as well, where we just have to understand the code logic, and reverse some functions, we need to analyze assembly instructions to get to know the proper argument values. Solving this challenge from disassembly + de-compiled code, so even if the symbols were stripped for this binary, we can get the logic easily. Lets dive into the challenge.
 
