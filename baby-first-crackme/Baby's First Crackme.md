@@ -8,7 +8,7 @@ This challenge was of easy difficulty as well, where we just have to understand 
 
 Observe that it is an ELF executable, with the symbols not stripped and the usage is provided, it accepts : key and a number
 
-![[Pasted image 20241111211435.png]]
+![crackme_001](img/img-1.png)
 
 
 Let's analyze the binary using "Ghidra" or "gdb", we would observe that once binary is analyzed by the tool we could see the disassembly and de-compilation of the binary. 
