@@ -89,10 +89,10 @@ This is the second part of assembly code of the main() function, where the jump 
 ```
 
 Observe in the image, "rsi" register holding the second argument to function which is the arguments array : 
-![[img-2.png]]
+![crackme_002](img/img-2.png)
 
 Observe that first three arguments to the function is printed in "gdb", while the program is running, i have set the breakpoint in the main function. 
-![[img-3.png]]
+![crackme_003](img/img-3.png)
 
 
 The "key" which is second parameter, its value is getting stored in location :  ```qword ptr [RBP + local_10]``` 
@@ -219,7 +219,7 @@ Now, in the next part of the explanation i am using the de-compiled version of t
 
 Here is the screenshot of the de-compiled version of "check_key" function by ghidra.
 
-![[Pasted image 20241113220620.png]]
+![crackme_004](img/img-4.png)
 
 If we observe the function and analyze the processing of it, we could make a simplified version of the above code as: 
 
@@ -260,7 +260,7 @@ Now, we need to understand what are the contents in the "local_58" array, so for
 
 Here is the screenshot of the de-compiled version of "encode_input" function by ghidra.
 
-![[Pasted image 20241113225418.png]]
+![crackme_005](img/img-5.png)
 
 If we observe the function and analyze the processing of it, we could make a simplified version of the above code as: 
 
@@ -358,10 +358,10 @@ int main()
 If we would run the solution and take the value of key and number and use it in the challenge it can be observed that we have solved the challenge. 
 
 Observe that all possible keys and numbers are generated
-![[img-6.png]]
+![crackme_006](img/img-6.png)
 
 Observed that "Access granted!!!" is received, keys and numbers combination is correct
-![[img-7.png]]
+![crackme_007](img/img-7.png)
 
 
 **Note:** In the decompiled version of the code from "ghidra" at the end after the loop it says: 
