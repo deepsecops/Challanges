@@ -18,7 +18,7 @@ Observe that the binary is ELF executable, and when it runs it prompts for the u
 
 It shows the symbols are not stripped, but we would observe that obfuscation is applied. Let's see which functions does it has, we can use gdb to identify those, by using the : info functions command: 
 
-![crackme_002](img/img-2.png)
+![crackme_002](img/img-1-1.png)
 
 Observe that the function names are obfuscated, and if we look at the ".strtab" section of the binary we would observed that no meaningful data is stored in it, it means the binary is obfuscated. 
 
@@ -146,13 +146,13 @@ FUN_00101203(local_11,8);
 
 This function taking character array reference as input, if we observe this function carefully, we would observe that it is simply calculating the characters till it encounters the null character "\0" and returning the length of the array. 
 
-![crackme_003](img/img-3.png)
+![crackme_003](img/img-2.png)
 
 ### # Analysis of FUN_0010123f(): 
 
 This function takes two arguments, first argument seems to be the reference of the array and the second parameter seems to be the size of the provided array as input. 
 
-![crackme_004](img/img-3-1.png)
+![crackme_004](img/img-3.png)
 
 Observe that the decompiled version of this version is not making sense so lets just dive into the assembly of this function: 
 
