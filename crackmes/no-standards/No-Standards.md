@@ -479,7 +479,7 @@ int main()
 
 ```
 
-![crackme_011](img/img-11.png)
+![crackme_011](img/img-10-1.png)
 
 Next the "if" condition will not be executed as "bVar1" is greater than 10.  Next code instructions are: 
 
@@ -515,7 +515,7 @@ Now, we know that what are the contents in the array "local_19", next it compare
 
 So, what if we provide the user input as ":wq", lets see what happens: 
 
-![crackme_012](img/img-12.png)
+![crackme_012](img/img-11.png)
 
 Yeah!!! we have escaped...................
 
@@ -583,7 +583,7 @@ int main()
 
 We can observe that if we run this above programs, both the arrays are equal, that is why we are able to achieve and successfully complete the challenge. 
 
-![[Pasted image 20241210193055.png]]
+![crackme_013](img/img-12.png)
 
 Lets' get back with another cool challenge...
 
