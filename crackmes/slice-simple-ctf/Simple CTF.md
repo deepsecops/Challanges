@@ -3,6 +3,8 @@
 
 Link to the challange: https://crackmes.one/crackme/66ee30341070323296555610 
 
+My Linkedin profile: https://www.linkedin.com/in/deepak-bhardwaj-aa8543143?trk=contact-info 
+
 My crackme's profile: https://crackmes.one/user/anon786 
 
 This challenge was simple as by looking at the decompiled version of the code we could figure out the inner workings and do reversing of the interesting functions, we didn't have to dig in into the disassembly. 
